@@ -155,8 +155,8 @@ def G_SM1(X, y,n_to_sample,cl):
 #############################################################################
 np.printoptions(precision=5,suppress=True)
 
-dtrnimg = '.../MNIST/trn_img/'
-dtrnlab = '.../MNIST/trn_lab/'
+dtrnimg = '.../0_trn_img.txt'
+dtrnlab = '.../0_trn_lab.txt'
 
 ids = os.listdir(dtrnimg)
 idtri_f = [os.path.join(dtrnimg, image_id) for image_id in ids]
@@ -166,6 +166,7 @@ ids = os.listdir(dtrnlab)
 idtrl_f = [os.path.join(dtrnlab, image_id) for image_id in ids]
 print(idtrl_f)
 
+#path on the computer where the models are stored
 modpth = '.../MNIST/models/crs5/'
 
 encf = []

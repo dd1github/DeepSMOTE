@@ -172,8 +172,8 @@ def G_SM(X, y,n_to_sample,cl):
 
 ###############################################################################
 
-dtrnimg = '.../MNIST/trn_img/'
-dtrnlab = '...MNIST/trn_lab/'
+dtrnimg = '.../0_trn_img.txt'
+dtrnlab = '.../0_trn_lab.txt'
 
 ids = os.listdir(dtrnimg)
 idtri_f = [os.path.join(dtrnimg, image_id) for image_id in ids]

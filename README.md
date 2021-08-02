@@ -11,6 +11,6 @@ https://drive.google.com/drive/folders/1GRrpiR0CJpcfpjBKO18FLjombxgqH9cK?usp=sha
 
 ## Dependencies
 
-
+The code was written with: Numpy 1.17; Python 3.6; Pytorch 1.3; and Scikit learn 0.24.1. 
 
 

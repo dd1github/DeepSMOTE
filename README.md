@@ -1,4 +1,6 @@
 # DeepSMOTE
+DeepSMOTE paper: https://arxiv.org/pdf/2105.02340.pdf
+
 This repository contains sample code for DeepSMOTE.  Specifically, it provides an implementation for the MNIST dataset.
 
 Sample training images and labels, as well as saved models are available for download at:

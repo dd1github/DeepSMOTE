@@ -291,9 +291,9 @@ for i in range(len(ids)):
                 
                 xcplus = np.append(xcminus,0)
                 #print('xcplus ',xcplus)
-                xcnew = (xclass[[xcplus],:])
+                xcnew = np.copy(xclass)
                 #xcnew = np.squeeze(xcnew)
-                xcnew = xcnew.reshape(xcnew.shape[1],xcnew.shape[2],xcnew.shape[3],xcnew.shape[4])
+                #xcnew = xcnew.reshape(xcnew.shape[1],xcnew.shape[2],xcnew.shape[3],xcnew.shape[4])
                 #print('xcnew ',xcnew.shape)
             
                 xcnew = torch.Tensor(xcnew)
